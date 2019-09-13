@@ -1,0 +1,48 @@
+.mainImg {
+    background-image: url(../../../assets/landing-bg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    margin-top: 55px;
+    padding-top: 300px;
+}
+
+@media screen and (max-width: 575px) {
+    .mainImg {
+        padding-top: 100px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .mainImg {
+        padding-top: 100px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .mainImg {
+        padding-top: 120px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .mainImg {
+        padding-top: 200px;
+    }
+}
+
+h1 {
+    font-size: 4.6vw;
+}
+
+.newF {
+    font-size: 3.8vw;
+}
+
+.border {
+    border-width: 2px !important;
+}
+
+.ptr {
+    cursor: pointer;
+}
